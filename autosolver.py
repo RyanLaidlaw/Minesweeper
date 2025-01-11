@@ -47,9 +47,6 @@ class Autosolver:
             cur_box = self.retrieve_box(rand_x, rand_y)
         return random_continuation_points
 
-    def make_moves(self, cur_moves):
-        print('no')
-
     def solve(self, board):
         self.set_board(board)
         continuation_points = self.choose_continuation_points()
